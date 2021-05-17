@@ -1,0 +1,81 @@
+/* Vamos melhorar este curriculo 
+    Fonte e color pode estar pesquisando nomes no google*/
+
+
+/* MARGEM */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+}
+
+/* TAGS */
+header{
+    text-align:right;
+    background-image: url(Imagens/fundo2.jpg);
+    height: 80px;
+    padding: 20px;
+}
+h3 {
+    text-align:left;
+    color: aliceblue; 
+    background-size: 100%;
+    padding-top: 30px;
+       
+   }
+a{
+    color:blue;
+    padding: 10px;
+}
+p{color:blue;}
+
+body{
+    color: brown;
+    background-color:black;
+ }
+
+footer{
+    clear: both;
+    background-image: url(Imagens/fundo2.jpg);
+    height: 30px;
+    text-align: center;
+    padding:10px;
+    background-size: 100%;
+}
+/* ID's */
+#div_principal{
+   
+    background-image: url(Imagens/fundo1.jpg);
+    background-size: 100%;
+    min-height: 700px;
+    padding: 100px 0 0 0;
+    
+}
+#div_esquerda{
+    /*background-color: red;*/
+    float:left;
+    min-height: 200px;
+    width:20%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 40px 0 10px 0;
+}
+
+#div_direita{
+    
+    /* background-color:yellow; */
+    float:right;
+    min-height: 200px;
+    width: 80%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 50px 0 50px 0;
+ }
+
+
+/* CLASSES */
+.container{
+    width: 960px;
+    margin: auto;
+}
+.efeito{
+    
+}
