@@ -44,12 +44,11 @@ footer{
 }
 /* ID's */
 #div_principal{
-   
-    background-image: url(Imagens/fundo1.jpg);
+   /*
     background-size: 100%;
     min-height: 700px;
     padding: 100px 0 0 0;
-    
+ */   
 }
 #div_esquerda{
     /*background-color: red;*/
